@@ -1,6 +1,11 @@
 ﻿int numero;
 int numeroPar = 0;
 
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine("              Sequencia Par");
+Console.WriteLine("Exibe os números pares entre 0 e o número digitado\n");
+Console.ResetColor();
+
 do
 {
     Console.Write("Digite um número inteiro e positivo: ");
